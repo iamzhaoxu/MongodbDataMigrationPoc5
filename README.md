@@ -1,0 +1,5 @@
+node_modules\.bin\migrate init  --compiler="ts:./ts_node_compiler.js" 
+node_modules\.bin\migrate create add-player-collection  --compiler="ts:./ts_node_compiler.js" 
+node_modules\.bin\migrate up  --compiler="ts:./ts_node_compiler.js" --store="./mongo-state-storage.ts"  
+node_modules\.bin\migrate down  --compiler="ts:./ts_node_compiler.js" --store="./mongo-state-storage.ts"  
+node_modules\.bin\migrate list  --compiler="ts:./ts_node_compiler.js" --store="./mongo-state-storage.ts"  
